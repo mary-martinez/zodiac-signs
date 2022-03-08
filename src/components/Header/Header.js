@@ -1,7 +1,11 @@
 import React from 'react';
+import './Header.css';
+import background from '../../background.jpg';
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <header style={{ backgroundImage: `url(${background})` }}>
+      <h1>What is your sign?</h1>
+    </header>
   );
 }
