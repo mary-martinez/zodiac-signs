@@ -1,8 +1,10 @@
-// import Zodiac from './Zodiac';
+import Zodiac from '../Zodiac/Zodiac';
 
 export default function Main() {
   return (
-    <div>Main</div>
+    <div>
+      <Zodiac name='aries' dates='Mar 21 - Apr 19' />
+    </div>
   );
 }
 
