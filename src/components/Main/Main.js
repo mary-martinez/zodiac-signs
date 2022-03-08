@@ -1,10 +1,14 @@
+import { zodiacs } from '../../data';
 import Zodiac from '../Zodiac/Zodiac';
 
 export default function Main() {
   return (
-    <div>
-      <Zodiac name='aries' dates='Mar 21 - Apr 19' />
-    </div>
+    <main>
+      {zodiacs.map((zodiac) => (
+        <Zodiac key={zodiac.name} name={zodiac.name} dates={zodiac.dates} />
+
+      ))}
+    </main>
   );
 }
 
