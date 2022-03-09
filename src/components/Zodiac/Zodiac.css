@@ -1,0 +1,11 @@
+.zodiac {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  height: 210px;
+  margin: 15px;
+  padding: 5px;
+  width: 120px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
