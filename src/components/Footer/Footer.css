@@ -1,7 +1,9 @@
 footer {
-  height: 30px;
+  height: 25px;
   width: 100%;
   position: fixed;
   bottom: 0px;
-  /* background-color: red; */
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 50px;
 }
